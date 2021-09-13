@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+body{
+    background-image:url(../iamges/f1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no repeat;
+    height: 100vh;
+}
+.container{
+    max-width: 1300px;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+header{
+    width: auto;
+    overflow: auto;
+    margin: 2%;
+}
+.logo{
+    float: left;
+}
+
+nav{
+    float:right;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li {
+display: inline-block;
+list-style: none;
+padding: 5px 15px;
+}
+nav ul li:hover{
+    border: 1px solid #fff;
+}
+nav ul .active{
+    border: 1px solid #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(16, 116, 209);
+    font-size: 18px;
+}
+.text{
+    margin-top: 18%;
+}
+.text h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.buttons{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-right: 5px;
+}
+button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+ .btn-1{
+    background:rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+}
+.btn-1 a{
+    color: #fff;
+}
+.btn-2:hover{
+    background:rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
+
+}
